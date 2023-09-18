@@ -1,8 +1,14 @@
-import logo from "./logo.svg";
+import Navbar from "./Components/Navbar/Navbar";
+import Hero from "./Components/Hero/Hero";
 import "./App.css";
 
 function App() {
-  return <h1 className="App">YourCar</h1>;
+  return (
+    <>
+      <Navbar />
+      <Hero />
+    </>
+  );
 }
 
 export default App;

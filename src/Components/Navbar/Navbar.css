@@ -1,0 +1,72 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+  color: var(--main-color);
+  min-width: 100%;
+  padding: 0 1.4rem;
+}
+
+.logo {
+  font-size: 4.8rem;
+  font-weight: 200;
+  cursor: pointer;
+}
+
+.linksList {
+  list-style: none;
+  gap: 0.5rem;
+}
+
+.link {
+  font-size: 2rem;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 1rem;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+
+.link:hover,
+.link:active {
+  color: var(--main-color);
+  background-color: var(--secondary-color);
+}
+
+.cart {
+  position: relative;
+  display: inline-block;
+}
+
+.cartIcon {
+  width: 3rem;
+}
+
+.cartCount {
+  padding: 0.7rem;
+  font-size: 2rem;
+  color: var(--main-color);
+  background-color: #f0daa9;
+  position: absolute;
+  top: -25px;
+  right: -15px;
+  opacity: 90%;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
