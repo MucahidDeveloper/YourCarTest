@@ -7,7 +7,7 @@
 
 html {
   font-size: 62.5%;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 body {
@@ -27,7 +27,7 @@ body {
 .container {
   margin: 0 auto;
   max-width: 120rem;
-  padding: 0 3.2rem;
+  padding: 0 6.2rem;
 }
 .flex {
   display: flex;

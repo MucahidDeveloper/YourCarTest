@@ -1,6 +1,6 @@
 .navbar {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   position: absolute;
   top: 0;
@@ -9,11 +9,11 @@
   background-color: transparent;
   color: var(--main-color);
   min-width: 100%;
-  padding: 0 1.4rem;
+  /* padding: 0 1.4rem; */
 }
 
 .logo {
-  font-size: 4.8rem;
+  font-size: 4.2rem;
   font-weight: 200;
   cursor: pointer;
 }
@@ -21,10 +21,11 @@
 .linksList {
   list-style: none;
   gap: 0.5rem;
+  margin-right: 15rem;
 }
 
 .link {
-  font-size: 2rem;
+  font-size: 1.8rem;
   cursor: pointer;
   font-weight: 600;
   padding: 1rem;
@@ -52,17 +53,18 @@
 }
 
 .cartIcon {
-  width: 3rem;
+  width: 2.4rem;
 }
 
 .cartCount {
-  padding: 0.7rem;
-  font-size: 2rem;
+  padding: 0.4rem;
+  font-size: 1.4rem;
   color: var(--main-color);
   background-color: #f0daa9;
   position: absolute;
-  top: -25px;
-  right: -15px;
+  top: -15px;
+  /* right: -15px; */
+  left: 15px;
   opacity: 90%;
   border-radius: 1rem;
   -webkit-border-radius: 1rem;
