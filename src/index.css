@@ -17,7 +17,7 @@ body {
   margin: 0;
   position: relative;
   font-family: "Alkatra", cursive;
-  font-family: "Inter", sans-serif;
+  /* font-family: "Inter", sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -28,11 +28,21 @@ body {
 .container {
   margin: 0 auto;
   max-width: 120rem;
-  padding: 0 6.2rem;
+  /* padding: 0 6.2rem; */
 }
 .flex {
   display: flex;
   justify-content: space-around;
   align-items: center;
   gap: 2rem;
+}
+
+.blue {
+  font-size: 3.4rem;
+  color: var(--blue-color);
+}
+
+.red {
+  font-size: 3.4rem;
+  color: var(--secondary-color);
 }

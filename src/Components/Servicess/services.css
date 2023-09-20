@@ -1,0 +1,33 @@
+/* Services */
+.Serv-section {
+  background-image: url(../../img/ServicesBG.png);
+  background-position: center;
+  background-color: #d7d8da;
+  background-size: cover;
+  height: 80vh;
+
+  padding: 6.4rem;
+}
+
+.ser-container {
+  justify-content: space-between;
+  gap: 7.5%;
+  margin-top: 20vh;
+}
+
+/* Single Service */
+.service {
+  flex-direction: column;
+  text-align: center;
+}
+
+.ser-pic {
+  width: 6.4rem;
+  margin-bottom: 2.4rem;
+}
+
+.ser-name {
+  font-size: large;
+  color: var(--blue-color);
+  margin-bottom: 1.8rem;
+}
