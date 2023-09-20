@@ -16,7 +16,6 @@ function servicesSection() {
           />
         ))}
       </div>
-      ;
     </div>
   );
 }
