@@ -1,0 +1,23 @@
+.aboutCont {
+  height: 100vh;
+  gap: 6rem;
+
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 6rem;
+}
+
+.textContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.imgContainer {
+  position: relative;
+}
+/* bgn-img */
+.about-img {
+  position: absolute;
+  top: 0;
+  left: 20%;
+}

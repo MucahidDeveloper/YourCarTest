@@ -1,0 +1,21 @@
+.sectionHeadLine {
+  font-size: 8.2rem;
+  color: #ebebeb;
+  margin-bottom: -7.2rem;
+  /* text-align: center; */
+}
+
+.blue {
+  font-size: 3.4rem;
+  color: var(--blue-color);
+}
+
+.red {
+  font-size: 3.4rem;
+  color: var(--secondary-color);
+}
+
+.paragraf {
+  font-size: medium;
+  color: var(--blue-color);
+}

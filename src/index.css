@@ -3,6 +3,7 @@
 :root {
   --main-color: #fffcf6;
   --secondary-color: #741708;
+  --blue-color: #192938;
 }
 
 html {
@@ -33,4 +34,5 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  gap: 2rem;
 }
